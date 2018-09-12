@@ -2,6 +2,12 @@
 title: Find One or More Criminals in a Hunt
 ---
 ## Find One or More Criminals in a Hunt
+Besides grouping part of a regular expression together, parentheses also create a numbered capturing group. It stores the part of the string matched by the part of the regular expression inside the parentheses.
+
+Sollution 
+```javascript
+let reCriminals = /C(C*)*/;
+```
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/regular-expressions/find-one-or-more-criminals-in-a-hunt/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
